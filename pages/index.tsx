@@ -30,7 +30,7 @@ const Home: NextPage = () => {
             <span className="user-title-color-change-section">ismayilov</span>
           </div>
           <div className="user-info">
-            <span> web developer </span>·
+            <span> web developer </span>·&nbsp;
             <span>
               business inquires:
               <span>
