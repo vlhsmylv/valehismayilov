@@ -1,13 +1,14 @@
 import Head from "next/head";
-import Posts from "../components/Posts.component";
 import TopSide from "../components/TopSide.component";
+import ReactMarkdown from "react-markdown";
+import Post from "../components/Post.component";
 import { root } from "../config/api.config";
 
-const Index = ({ posts }: any) => {
+const PostId = ({ post }: any) => {
   return (
     <>
       <Head>
-        <title>Personal Blog - Valeh Ismayilov</title>
+        <title>{post.title} - Valeh Ismayilov</title>
       </Head>
 
       <main
@@ -17,21 +18,23 @@ const Index = ({ posts }: any) => {
         className={"m-auto"}
       >
         <TopSide />
-        <Posts posts={posts} />
+        <Post post={post} />
       </main>
     </>
   );
 };
 
-export const getServerSideProps = async (context: any) => {
-  const response: any = await fetch(`${root}/api/posts`);
+export const getServerSideProps = async ({ query }: any) => {
+  const response: any = await fetch(
+    `${root}/api/posts/${query.postId}`
+  );
   const data = await response.json();
 
   return {
     props: {
-      posts: data,
+      post: data,
     },
   };
 };
 
-export default Index;
+export default PostId;
