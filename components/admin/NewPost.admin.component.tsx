@@ -112,7 +112,6 @@ const NewPost = () => {
                   >
                     <i className="fa-solid fa-expand"></i>
                   </button>
-                  {/* adding types */}
                   <button
                     className="bg-transparent border-0"
                     onClick={() => setPreviewWriter(true)}
