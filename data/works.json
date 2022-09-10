@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Bitlio",
+    "url": "https://bitlio.app",
+    "photo": "bitlio.png",
+    "details": "Web app that created from scratch with Next.js and Firebase technologies"
+  },
+  {
+    "title": "ADA login page clone",
+    "url": "https://vlhsmylv.github.io/ada-login-page-clone",
+    "photo": "ada.png", 
+    "details": "My school's login page clone that designed with CSS"
+  },
+  {
+    "title": "Facebook login page clone",
+    "url": "https://vlhsmylv.github.io/facebook-sign-in-page-clone",
+    "photo": "facebook.png", 
+    "details": "Login page clone that designed with CSS"
+  }
+]
