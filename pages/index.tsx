@@ -23,10 +23,10 @@ const Home: NextPage = () => {
               business inquires&nbsp;&nbsp;:&nbsp;&nbsp;
               <span>
                 <a
-                  href="mailto:me@valehismayilov.com"
+                  href="mailto:valeh.dev@yandex.com"
                   className="user-info-email"
                 >
-                  me@valehismayilov.com
+                  valeh.dev@yandex.com
                 </a>
               </span>
             </span>
