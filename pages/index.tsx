@@ -53,14 +53,6 @@ const Home: NextPage = () => {
             </a>
             <a
               className="user-media-item"
-              href="https://instagram.com/thevismayilov"
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              <i className="fa-brands fa-instagram" />
-            </a>
-            <a
-              className="user-media-item"
               href="https://www.freelancer.com/u/valehism"
               target={"_blank"}
               rel="noreferrer"
@@ -71,7 +63,7 @@ const Home: NextPage = () => {
               <a className="user-media-item-box btn btn-dark">Portfolio</a>
             </Link>
           </div>
-          <div id="buy-me-a-coffee" className="secondary-font">
+          {/* <div id="buy-me-a-coffee" className="secondary-font">
             <a
               href="https://www.buymeacoffee.com/valehism"
               target="_blank"
@@ -81,7 +73,7 @@ const Home: NextPage = () => {
               <span className="link-handler">Buy me a coffee</span>{" "}
               <i className="fa-solid fa-mug-saucer"></i>{" "}
             </a>
-          </div>
+          </div> */}
         </div>
       </main>
     </>
