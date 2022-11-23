@@ -59,9 +59,14 @@ const Home: NextPage = () => {
             >
               <i className="fa-solid fa-briefcase" />
             </a>
-            <Link href="/portfolio">
-              <a className="user-media-item-box btn btn-dark">Portfolio</a>
-            </Link>
+            <a
+              className="user-media-item-box btn btn-dark"
+              href="https://www.freelancer.com/u/valhism" 
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              Portfolio
+            </a>
           </div>
           {/* <div id="buy-me-a-coffee" className="secondary-font">
             <a
