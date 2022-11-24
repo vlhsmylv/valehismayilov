@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import Typewriter from "typewriter-effect";
 
 const Home: NextPage = () => {
   return (
@@ -18,7 +19,18 @@ const Home: NextPage = () => {
             <span className="user-title-color-change-section">ismayilov</span>
           </div>
           <div className="user-info">
-            <span> web developer </span>·&nbsp;
+            <span style={{
+              display: "inline-block"
+            }}>
+              <Typewriter 
+                options={{
+                  strings: ["web developer", "student at ada university"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </span>
+            ·&nbsp;
             <span>
               business inquires&nbsp;&nbsp;:&nbsp;&nbsp;
               <span>
@@ -61,7 +73,7 @@ const Home: NextPage = () => {
             </a>
             <a
               className="user-media-item-box btn btn-dark"
-              href="https://www.freelancer.com/u/valhism" 
+              href="https://www.freelancer.com/u/valhism"
               target={"_blank"}
               rel="noreferrer"
             >
