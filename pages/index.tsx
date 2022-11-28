@@ -19,10 +19,12 @@ const Home: NextPage = () => {
             <span className="user-title-color-change-section">ismayilov</span>
           </div>
           <div className="user-info">
-            <span style={{
-              display: "inline-block"
-            }}>
-              <Typewriter 
+            <span
+              style={{
+                display: "inline-block",
+              }}
+            >
+              <Typewriter
                 options={{
                   strings: ["web developer", "student at ada university"],
                   autoStart: true,
@@ -44,8 +46,8 @@ const Home: NextPage = () => {
             </span>
           </div>
           <div className="user-brief">
-          Junior Web Developer with good leading ability          
-      </div>
+            Junior Web Developer with good leading ability
+          </div>
           <div className="user-media">
             <a
               className="user-media-item"
