@@ -44,8 +44,8 @@ const Home: NextPage = () => {
             </span>
           </div>
           <div className="user-brief">
-                I built this nigga different
-          </div>
+          Junior Web Developer with good leading ability          
+      </div>
           <div className="user-media">
             <a
               className="user-media-item"
