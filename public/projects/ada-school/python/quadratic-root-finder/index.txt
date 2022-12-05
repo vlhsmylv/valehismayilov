@@ -61,8 +61,8 @@ def findRoots(a, b, disc):
 print("ax^2 + bx + c")
 emp()
 
-a = int(input("Input for a: "))
 b = int(input("Input for b: "))
+a = int(input("Input for a: "))
 c = int(input("Input for c: "))
 
 if checkRoot(discFormula(a, b, c)) == True:
