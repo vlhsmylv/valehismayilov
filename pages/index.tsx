@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       </Head>
       <main>
         <div className="left-side-container">
-          <img src="/img/me.png" className="user-pfp" />
+          <img src="/img/me1.png" className="user-pfp" />
         </div>
         <div className="right-side-container">
           <div className="user-title">
