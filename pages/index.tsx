@@ -48,6 +48,18 @@ const Home: NextPage = () => {
           <div className="user-brief">
             Junior Web Developer with good leading ability
           </div>
+          <div className="user-posts">
+            <div className="fw-bold fs-3">
+              Posts on <a target={"_blank"} rel="noreferrer" href="https://medium.com/@valehismayilov">my blog</a>
+            </div>
+            <a
+              target={"_blank"}
+              rel="noreferrer"
+              href="https://medium.com/@valehismayilov/is-it-profitable-to-buy-crypto-or-for-who-it-is-profitable-289c562c492d"
+            >
+              Is it profitable to buy crypto? or for who it is profitable?
+            </a>
+          </div>
           <div className="user-media">
             <a
               className="user-media-item"
