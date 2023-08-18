@@ -11,6 +11,7 @@ import MySkills from "./components/MySkills";
 import Portfolio from "./components/Portfolio";
 import Github from "./components/Github";
 import Contact from "./components/Contact";
+import NotFound from "./components/NotFound";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Route path="/portfolio" element={<Portfolio separate={true} />}></Route>
       <Route path="/github" element={<Github separate={true} />}></Route>
       <Route path="/contact" element={<Contact separate={true} />}></Route>
+      <Route path="/*" element={<NotFound />} />
     </Routes>
     <Footer />
   </BrowserRouter>
