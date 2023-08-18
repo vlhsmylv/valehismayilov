@@ -1,5 +1,6 @@
 import skills from "../data/skills.data.json";
 import { randomColorPicker } from "../lib/generators.lib";
+import MySkillLogo from "./MySkillsComponents/MySkillLogo.MySkillComponent";
 
 const MySkills = ({ separate }: { separate?: boolean }) => {
   return (
@@ -14,7 +15,7 @@ const MySkills = ({ separate }: { separate?: boolean }) => {
           <div
             className={`flex items-center justify-center gap-2 font-semibold cursor-pointer text-xl p-2 max-w-[350px] ease-in-out duration-100 shadow rounded-md p-2 text-black shadow-black border-2 border-black bg-[${randomColorPicker()}]`}
           >
-            <img src={skill.logo} className="w-8 h-8" /> {skill.title}
+            <MySkillLogo imgKey={skill.title} /> {skill.title}
           </div>
         ))}
       </div>

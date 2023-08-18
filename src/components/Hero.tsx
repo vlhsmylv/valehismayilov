@@ -1,3 +1,5 @@
+import MyImage from "../assets/me.png";
+
 const Hero = () => {
   return (
     <main className="grid lg:grid-cols-2 grid-cols-1 border-x-[4px] border-black">
@@ -23,7 +25,8 @@ const Hero = () => {
       <div className="h-[500px] bg-[#BAFCA2] flex justify-center items-center">
         <div className="ease-in-out duration-100 border-2 border-black shadow bg-[#FFDB58] z-10 w-[320px] h-[370px] flex flex-col gap-10 justify-center">
           <img
-            src="/assets/me.png"
+            src={MyImage}
+            alt="Valeh's Image :)"
             className="border-[4px] border-black w-[220px] h-[220px] mx-auto"
           />
           <div className="font-semibold text-xl text-center">

@@ -12,8 +12,9 @@ const Portfolio = ({ separate }: { separate?: boolean }) => {
     >
       <div className="text-3xl font-semibold">Portfolio</div>
       <div className="flex flex-row flex-wrap lg:gap-20 gap-10 justify-center">
-        {projects.slice(0, loadMore ? projects.length : 6).map((project) => (
+        {projects.slice(0, loadMore ? projects.length : 6).map((project, i) => (
           <a
+            key={i}
             target="_blank"
             href={project.link}
             className={`bg-[${project.bg}] text-xl max-w-[346px] ease-in-out duration-100 shadow rounded-md flex w-full text-black shadow-black border-2 border-black`}
@@ -23,8 +24,11 @@ const Portfolio = ({ separate }: { separate?: boolean }) => {
               <div className="px-5 font-semibold">{project.title}</div>
               <p className="px-5 text-base">{project.about}</p>
               <div className="flex flex-row flex-wrap px-5 gap-3 text-base">
-                {project.skills.map((skill) => (
-                  <div className="px-2 py-1 max-w-[346px] ease-in-out duration-100 rounded-md text-black shadow-black border-2 border-black">
+                {project.skills.map((skill, i) => (
+                  <div
+                    key={i}
+                    className="px-2 py-1 max-w-[346px] ease-in-out duration-100 rounded-md text-black shadow-black border-2 border-black"
+                  >
                     {skill}
                   </div>
                 ))}

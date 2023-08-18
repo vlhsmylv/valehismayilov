@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import skills from "../data/skills.data.json";
 import axios from "axios";
 import { randomColorPicker } from "../lib/generators.lib";
+import MySkillLogo from "./MySkillsComponents/MySkillLogo.MySkillComponent";
 
 interface Repo {
   language: string;
@@ -38,10 +39,11 @@ const Github = ({ separate }: { separate?: boolean }) => {
         className="flex flex-row flex-wrap lg:gap-20 gap-10 justify-center"
       >
         {repos &&
-          repos.slice(0, loadMore ? repos.length : 6).map((repo) => {
+          repos.slice(0, loadMore ? repos.length : 6).map((repo, i) => {
             if (repo.language !== "Python" && repo.language) {
               return (
                 <a
+                  key={i}
                   target="_blank"
                   href={repo.html_url}
                   className="bg-gray-100 text-xl max-w-[346px] ease-in-out duration-100 shadow rounded-md flex w-full text-black shadow-black border-2 border-black"
@@ -59,13 +61,14 @@ const Github = ({ separate }: { separate?: boolean }) => {
                         : "Doesn't have description"}
                     </div>
                     <div className="flex flex-row justify-center flex-wrap px-5 gap-3 text-base">
-                      {skills.map((skill) => {
+                      {skills.map((skill, i) => {
                         if (skill.title === repo.language) {
                           return (
                             <div
+                              key={i}
                               className={`flex items-center justify-center gap-2 font-semibold cursor-pointer text-xl p-2 max-w-[350px] ease-in-out duration-100 rounded-md p-2 text-black border-2 border-black bg-[${randomColorPicker()}]`}
                             >
-                              <img src={skill.logo} className="w-8 h-8" />{" "}
+                              <MySkillLogo imgKey={skill.title}  />{" "}
                               {skill.title}
                             </div>
                           );
