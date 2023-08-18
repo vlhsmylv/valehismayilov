@@ -1,13 +1,3 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" },
-    {
-      "source": "/assets/(.png)",
-      "destination": "/assets"
-    },
-    {
-      "source": "/assets/stack/(.png)",
-      "destination": "/assets/stack"
-    }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }, {"source": "/assets/me.png", "destination": "/assets/me.png"}]
 }
