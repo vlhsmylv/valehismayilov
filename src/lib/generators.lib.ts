@@ -23,7 +23,7 @@ for (let i = 0; i < 10; i++) {
 
 export const randomColorPicker = () => {
   if (colors.length === 0) {
-    return "asdsad";
+    return null;
   }
 
   const randomIndex = Math.floor(Math.random() * colors.length);

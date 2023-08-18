@@ -1,46 +1,46 @@
 [
   {
     "title": "HTML",
-    "logo": "/assets/stack/html-5.png"
+    "logo": "./assets/stack/html-5.png"
   },
   {
     "title": "CSS",
-    "logo": "/assets/stack/css-3.png"
+    "logo": "./assets/stack/css-3.png"
   },
   {
     "title": "JavaScript",
-    "logo": "/assets/stack/js.png"
+    "logo": "./assets/stack/js.png"
   },
   {
     "title": "TypeScript",
-    "logo": "/assets/stack/ts.png"
+    "logo": "./assets/stack/ts.png"
   },
   {
     "title": "React",
-    "logo": "/assets/stack/react.png"
+    "logo": "./assets/stack/react.png"
   },
   {
     "title": "MongoDB",
-    "logo": "/assets/stack/mongo.png"
+    "logo": "./assets/stack/mongo.png"
   },
   {
     "title": "NodeJs",
-    "logo": "/assets/stack/node.png"
+    "logo": "./assets/stack/node.png"
   },
   {
     "title": "ExpressJs",
-    "logo": "/assets/stack/express.png"
+    "logo": "./assets/stack/express.png"
   },
   {
     "title": "Tailwind",
-    "logo": "/assets/stack/tailwind.svg"
+    "logo": "./assets/stack/tailwind.svg"
   },
   {
     "title": "Bootstrap",
-    "logo": "/assets/stack/bootstrap.png"
+    "logo": "./assets/stack/bootstrap.png"
   },
   {
     "title": "SCSS",
-    "logo": "/assets/stack/sass.png"
+    "logo": "./assets/stack/sass.png"
   }
 ]

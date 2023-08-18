@@ -20,12 +20,10 @@ const Hero = () => {
           with good leadership and teamwork skills based in Baku, Azerbaijan 📍
         </div>
       </div>
-      <div
-        className="h-[500px] bg-[#BAFCA2] flex justify-center items-center"
-      >
+      <div className="h-[500px] bg-[#BAFCA2] flex justify-center items-center">
         <div className="ease-in-out duration-100 border-2 border-black shadow bg-[#FFDB58] z-10 w-[320px] h-[370px] flex flex-col gap-10 justify-center">
           <img
-            src="/assets/me.png"
+            src="./assets/me.png"
             className="border-[4px] border-black w-[220px] h-[220px] mx-auto"
           />
           <div className="font-semibold text-xl text-center">
