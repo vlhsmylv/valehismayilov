@@ -1,0 +1,25 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Clash Display", sans-serif;
+}
+
+.shadow {
+  box-shadow: 8px 10px black !important;
+}
+
+.shadow:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 5px 7px black !important;
+}
+
+.shadow-input {
+  box-shadow: 8px 10px black !important;
+}
+
+.shadow-input:focus {
+  transform: translate(3px, 3px);
+  box-shadow: 5px 7px black !important;
+}
