@@ -12,6 +12,10 @@ import Portfolio from "./components/Portfolio";
 import Github from "./components/Github";
 import Contact from "./components/Contact";
 import NotFound from "./components/NotFound";
+import Linkfold from "./routers/Linkfold.router";
+import Linkedin from "./routers/Linkedin.router copy";
+import Blog from "./components/Blog";
+import Post from "./components/BlogComponents/Post.BlogComponent";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
@@ -22,9 +26,15 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Route path="/about" element={<Hero />}></Route>
       <Route path="/my-skills" element={<MySkills separate={true} />}></Route>
       <Route path="/portfolio" element={<Portfolio separate={true} />}></Route>
+      <Route path="/blog" element={<Blog separate={true} />}></Route>
+      <Route path="/blog/:postSlug" element={<Post />}></Route>
       <Route path="/github" element={<Github separate={true} />}></Route>
       <Route path="/contact" element={<Contact separate={true} />}></Route>
       <Route path="/*" element={<NotFound />} />
+
+      {/* Routers */}
+      <Route path="/linkfold" element={<Linkfold />}></Route>
+      <Route path="/linkedin" element={<Linkedin />}></Route>
     </Routes>
     <Footer />
   </BrowserRouter>

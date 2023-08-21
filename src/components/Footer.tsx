@@ -7,7 +7,7 @@ const Footer = () => {
       <div>
         <a
           target="_blank"
-          href="https://linkfold-phi.vercel.app/valehismayilov"
+          href="/linkfold"
           className="hover:underline"
         >
           Links

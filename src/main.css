@@ -23,3 +23,7 @@ body {
   transform: translate(3px, 3px);
   box-shadow: 5px 7px black !important;
 }
+
+.markdown > * {
+  all: revert;
+}

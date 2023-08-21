@@ -1,3 +1,4 @@
+
 const Navbar = () => {
   return (
     <nav className="flex flex-wrap p-4 gap-7 items-center justify-center bg-gray-100 border-[4px] border-black">
@@ -12,6 +13,9 @@ const Navbar = () => {
       </a>
       <a href="/portfolio" className="hover:underline text-xl">
         Portfolio
+      </a>
+      <a href="/blog" className="hover:underline text-xl">
+        Blog
       </a>
       <a href="/github" className="hover:underline text-xl">
         Github

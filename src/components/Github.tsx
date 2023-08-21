@@ -68,8 +68,7 @@ const Github = ({ separate }: { separate?: boolean }) => {
                               key={i}
                               className={`flex items-center justify-center gap-2 font-semibold cursor-pointer text-xl p-2 max-w-[350px] ease-in-out duration-100 rounded-md p-2 text-black border-2 border-black bg-[${randomColorPicker()}]`}
                             >
-                              <MySkillLogo imgKey={skill.title}  />{" "}
-                              {skill.title}
+                              <MySkillLogo imgKey={skill.title} /> {skill.title}
                             </div>
                           );
                         }
@@ -88,18 +87,22 @@ const Github = ({ separate }: { separate?: boolean }) => {
             }
           })}
       </div>
-      <div className="flex justify-center mt-5">
-        <button
-          id="setLoadMore"
-          type="submit"
-          onClick={() => setLoadMore(true)}
-          className={`${
-            loadMore ? "hidden" : "block"
-          } ease-in-out duration-100 text-xl font-semibold shadow border-2 border-black rounded-md p-2 bg-[#87CEEB]`}
-        >
-          Load more...
-        </button>
-      </div>
+      {repos.length > 6 ? (
+        <div className="flex justify-center mt-5">
+          <button
+            id="setLoadMore"
+            type="submit"
+            onClick={() => setLoadMore(true)}
+            className={`${
+              loadMore ? "hidden" : "block"
+            } ease-in-out duration-100 text-xl font-semibold shadow border-2 border-black rounded-md p-2 bg-[#87CEEB]`}
+          >
+            Load more...
+          </button>
+        </div>
+      ) : (
+        <></>
+      )}
     </main>
   );
 };

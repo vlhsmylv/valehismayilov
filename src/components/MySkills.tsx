@@ -11,8 +11,9 @@ const MySkills = ({ separate }: { separate?: boolean }) => {
     >
       <div className="text-3xl font-semibold">My Skills</div>
       <div className="lg:px-0 px-4 mt-3 flex flex-row flex-wrap justify-center gap-7 max-w-[600px]">
-        {skills.map((skill) => (
+        {skills.map((skill, i) => (
           <div
+            key={i}
             className={`flex items-center justify-center gap-2 font-semibold cursor-pointer text-xl p-2 max-w-[350px] ease-in-out duration-100 shadow rounded-md p-2 text-black shadow-black border-2 border-black bg-[${randomColorPicker()}]`}
           >
             <MySkillLogo imgKey={skill.title} /> {skill.title}
