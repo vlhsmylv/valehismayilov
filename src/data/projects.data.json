@@ -1,5 +1,13 @@
 [
   {
+    "link":"https://hoobank-three-neon.vercel.app",
+    "img": "https://i.ibb.co/442gdx4/Screenshot-2023-08-23-at-21-11-20.png",
+    "title": "Hoobank",
+    "about": "Modern banking application that enables individuals and businesses to get rid of online payment issues. The website offers a modern and user-friendly interface.",
+    "skills": ["React", "Tailwind"],
+    "bg": "#00f7ff"
+  },
+  {
     "link": "https://linkfold-phi.vercel.app",
     "img": "https://i.ibb.co/nnGHtTh/Screenshot-2023-08-05-at-22-10-59.png",
     "title": "Linkfold",
