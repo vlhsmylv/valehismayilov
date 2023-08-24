@@ -40,7 +40,7 @@
     "bg": "#E3DFF2"
   },
   {
-    "link": "https://bitlio.app",
+    "link": "https://bitlio-ui.netlify.app/",
     "img": "https://lightbox-agency.netlify.app/images/s1.jpg",
     "title": "Bitlio",
     "about": "A Platform that helps people to learn to program in the Azerbaijani language. Has all functionalities such as authentication and database integration.",
