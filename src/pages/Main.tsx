@@ -1,4 +1,4 @@
-import Blog from "../components/Blog";
+// import Blog from "../components/Blog";
 import Contact from "../components/Contact";
 import Github from "../components/Github";
 import Hero from "../components/Hero";
@@ -11,7 +11,7 @@ const Main = () => {
       <Hero />
       <MySkills />
       <Portfolio />
-      <Blog />
+      {/* <Blog /> */}
       <Github />
       <Contact />
     </>
