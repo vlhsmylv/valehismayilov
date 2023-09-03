@@ -1,7 +1,15 @@
 [
   {
-    "link":"https://hoobank-three-neon.vercel.app",
-    "img": "https://i.ibb.co/442gdx4/Screenshot-2023-08-23-at-21-11-20.png",
+    "link": "https://vlhsmylv.github.io/notifications-page",
+    "img": "notificationsPage",
+    "title": "Notifications page",
+    "about": "Notifications page project from Frontend Mentor. Targeted to develop designing and implementing design skills.",
+    "skills": ["HTML", "CSS", "Tailwind"],
+    "bg": "#e75957"
+  },
+  {
+    "link": "https://hoobank-three-neon.vercel.app",
+    "img": "hoobank",
     "title": "Hoobank",
     "about": "Modern banking application that enables individuals and businesses to get rid of online payment issues. The website offers a modern and user-friendly interface.",
     "skills": ["React", "Tailwind"],
@@ -9,7 +17,7 @@
   },
   {
     "link": "https://linkfold-phi.vercel.app",
-    "img": "https://i.ibb.co/nnGHtTh/Screenshot-2023-08-05-at-22-10-59.png",
+    "img": "linkfold",
     "title": "Linkfold",
     "about": "One place your all of your links! Web app like BioLink, Linktree, etc.  Contains functionalities such as authentication, database integration, etc.",
     "skills": ["NextJs", "Tailwind", "MongoDB", "Git"],
@@ -17,7 +25,7 @@
   },
   {
     "link": "https://car-rental-service-lightbox.netlify.app/",
-    "img": "https://lightbox-agency.netlify.app/images/s5.jpg",
+    "img": "rentARide",
     "title": "Rent a Ride",
     "about": "A car rental website is a digital platform that enables individuals or businesses to lease vehicles for personal or professional purposes. The website offers a user-friendly interface.",
     "skills": ["NextJs", "SCSS"],
@@ -25,7 +33,7 @@
   },
   {
     "link": "https://lightbox-agency.netlify.app",
-    "img": "https://lightbox-agency.netlify.app/images/s4.jpg",
+    "img": "lightbox",
     "title": "Lightbox Agency",
     "about": "An Agency Website that provides information for its users and customers. It has different functionalities as order confirmation and order check that improve customer experience to the next level.",
     "skills": ["NextJs", "Firebase", "SCSS"],
@@ -33,7 +41,7 @@
   },
   {
     "link": "https://threads-net.netlify.app/",
-    "img": "https://i.ibb.co/hM5QXtc/original-030f7d9fd7d1e303510f3f7c55711ff5-1.jpg",
+    "img": "threads",
     "title": "Threads",
     "about": "Community application that you can create and discuss topics. Web clone of Threads application. Contains functionalities such as authentication, database integration, etc.",
     "skills": ["NextJs", "Tailwind", "MongoDB"],
@@ -41,7 +49,7 @@
   },
   {
     "link": "https://bitlio-ui.netlify.app/",
-    "img": "https://lightbox-agency.netlify.app/images/s1.jpg",
+    "img": "bitlio",
     "title": "Bitlio",
     "about": "A Platform that helps people to learn to program in the Azerbaijani language. Has all functionalities such as authentication and database integration.",
     "skills": ["NextJs", "Firebase", "Bootstrap"],
@@ -49,7 +57,7 @@
   },
   {
     "link": "https://vlhsmylv.github.io/telmanheybat-com/",
-    "img": "https://lightbox-agency.netlify.app/images/s2.jpg",
+    "img": "telmanHeybat",
     "title": "Telman Heybat",
     "about": " A Personal Website for photographer. Contains services, portfolio, and contact sections. It is categorized as a landing page.",
     "skills": ["HTML", "CSS", "JavaScript"],
