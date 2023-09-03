@@ -20,7 +20,7 @@ const Portfolio = ({ separate }: { separate?: boolean }) => {
             className={`bg-[${project.bg}] text-xl max-w-[346px] ease-in-out duration-100 shadow rounded-md flex w-full text-black shadow-black border-2 border-black`}
           >
             <div className="flex flex-col gap-3 pb-5">
-              <img src={project.img} className="h-[187px]" />
+              <img src={project.img} className="h-[187px] rounded-md" />
               <div className="px-5 font-semibold">{project.title}</div>
               <p className="px-5 text-base">{project.about}</p>
               <div className="flex flex-row flex-wrap px-5 gap-3 text-base">
