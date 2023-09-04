@@ -18,9 +18,9 @@ const Navbar = () => {
       {/* <a href="/blog" className="hover:underline text-xl">
         Blog
       </a> */}
-      <a href="/github" className="hover:underline text-xl">
+      {/* <a href="/github" className="hover:underline text-xl">
         Github
-      </a>
+      </a> */}
       <a href="/contact" className="hover:underline text-xl">
         Contact
       </a>

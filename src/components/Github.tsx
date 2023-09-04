@@ -90,7 +90,7 @@ const Github = ({ separate }: { separate?: boolean }) => {
       {repos.length > 6 ? (
         <div className="flex justify-center mt-5">
           <button
-            id="setLoadMore"
+            id="setLoadMoreRepos"
             type="submit"
             onClick={() => setLoadMore(true)}
             className={`${

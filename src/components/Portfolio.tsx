@@ -14,14 +14,34 @@ const Portfolio = ({ separate }: { separate?: boolean }) => {
       <div className="text-3xl font-semibold">Portfolio</div>
       <div className="flex flex-row flex-wrap lg:gap-20 gap-10 justify-center">
         {projects.slice(0, loadMore ? projects.length : 6).map((project, i) => (
-          <a
+          <div
             key={i}
-            target="_blank"
-            href={project.link}
-            className={`bg-[${project.bg}] text-xl max-w-[346px] ease-in-out duration-100 shadow rounded-md flex w-full text-black shadow-black border-2 border-black`}
+            className={`group/item cursor-pointer bg-[${project.bg}] text-xl max-w-[346px] max-h-[427px] ease-in-out duration-100 shadow-unset-hover rounded-md flex w-full text-black shadow-black border-2 border-black`}
           >
             <div className="flex flex-col gap-3 pb-5">
-              <img src={projectImages[project.img]} className="h-[187px] rounded-t-sm" />
+              {/* <div className="opacity-0 group-hover/item:opacity-[.3] absolute max-w-[346px] w-full max-h-[427px] h-full rounded-md flex flex-col gap-3 bg-black"> */}
+              <div className="ease-in-out duration-200 flex flex-col gap-5 justify-center items-center absolute max-w-[346px] w-full max-h-[427px] h-full bg-black-alpha opacity-0 group-hover/item:opacity-[1]">
+                <a
+                  target="_blank"
+                  className={`flex max-w-[120px] pr-6 w-full bg-[#90EE90] items-center justify-center gap-2 font-semibold text-xl p-2 ease-in-out duration-100 shadow rounded-md p-2 text-black shadow-black border-2 border-black`}
+                  href={project.link}
+                >
+                  <span className="w-[20px]">🌐︎</span>{" "}
+                  <span className="w-[40px] pl-1">Live</span>
+                </a>
+                <a
+                  target="_blank"
+                  className={`flex max-w-[120px] pr-6 w-full bg-[#87CEEB] items-center justify-center gap-2 font-semibold text-xl p-2 ease-in-out duration-100 shadow rounded-md p-2 text-black shadow-black border-2 border-black`}
+                  href={project.repo}
+                >
+                  <span className="w-[20px]">👨🏻‍💻</span>{" "}
+                  <span className="w-[40px] pl-1">Code</span>
+                </a>
+              </div>
+              <img
+                src={projectImages[project.img]}
+                className="h-[187px] rounded-t-sm"
+              />
               <div className="px-5 font-semibold">{project.title}</div>
               <p className="px-5 text-base">{project.about}</p>
               <div className="flex flex-row flex-wrap px-5 gap-3 text-base">
@@ -35,13 +55,13 @@ const Portfolio = ({ separate }: { separate?: boolean }) => {
                 ))}
               </div>
             </div>
-          </a>
+          </div>
         ))}
       </div>
       {projects.length > 6 ? (
         <div className="flex justify-center mt-5">
           <button
-            id="setLoadMore"
+            id="setLoadMoreProjects"
             type="submit"
             onClick={() => setLoadMore(true)}
             className={`${

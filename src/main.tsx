@@ -9,11 +9,11 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import MySkills from "./components/MySkills";
 import Portfolio from "./components/Portfolio";
-import Github from "./components/Github";
+// import Github from "./components/Github";
 import Contact from "./components/Contact";
 import NotFound from "./components/NotFound";
 import Linkfold from "./routers/Linkfold.router";
-import Linkedin from "./routers/Linkedin.router copy";
+import Linkedin from "./routers/Linkedin.router";
 // import Blog from "./components/Blog";
 // import Post from "./components/BlogComponents/Post.BlogComponent";
 
@@ -28,7 +28,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Route path="/portfolio" element={<Portfolio separate={true} />}></Route>
       {/* <Route path="/blog" element={<Blog separate={true} />}></Route> */}
       {/* <Route path="/blog/:postSlug" element={<Post />}></Route> */}
-      <Route path="/github" element={<Github separate={true} />}></Route>
+      {/* <Route path="/github" element={<Github separate={true} />}></Route> */}
       <Route path="/contact" element={<Contact separate={true} />}></Route>
       <Route path="/*" element={<NotFound />} />
 

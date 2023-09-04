@@ -14,7 +14,7 @@ const MySkills = ({ separate }: { separate?: boolean }) => {
         {skills.map((skill, i) => (
           <div
             key={i}
-            className={`flex items-center justify-center gap-2 font-semibold cursor-pointer text-xl p-2 max-w-[350px] ease-in-out duration-100 shadow rounded-md p-2 text-black shadow-black border-2 border-black bg-[${randomColorPicker()}]`}
+            className={`flex items-center cursor-default justify-center gap-2 font-semibold text-xl p-2 max-w-[350px] ease-in-out duration-100 shadow-unset-hover rounded-md p-2 text-black shadow-black border-2 border-black bg-[${randomColorPicker()}]`}
           >
             <MySkillLogo imgKey={skill.title} /> {skill.title}
           </div>

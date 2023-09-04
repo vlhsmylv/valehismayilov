@@ -10,6 +10,10 @@ body {
   box-shadow: 8px 10px black !important;
 }
 
+.shadow-unset-hover {
+  box-shadow: 8px 10px black !important;
+}
+
 .shadow:hover {
   transform: translate(3px, 3px);
   box-shadow: 5px 7px black !important;
@@ -26,4 +30,8 @@ body {
 
 .markdown > * {
   all: revert;
+}
+
+.bg-black-alpha {
+  background: rgba(0, 0, 0, 0.3);
 }

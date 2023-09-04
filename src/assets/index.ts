@@ -1,11 +1,13 @@
 import bitlio from "./images/bitlio.jpeg";
-import hoobank from "./images/hoobank.png";
+import hoobank from "./images/hoobank.jpeg";
 import lightbox from "./images/lightbox.jpeg";
-import linkfold from "./images/linkfold.png";
-import notificationsPage from "./images/notifications-page.png";
+import linkfold from "./images/linkfold.jpeg";
+import notificationsPage from "./images/notifications-page.jpeg";
 import rentARide from "./images/rent-a-ride.jpeg";
 import telmanHeybat from "./images/telman-heybat.jpeg";
-import threads from "./images/threads.png";
+import threads from "./images/threads.jpeg";
+import newsletterSignUp from "./images/newsletter-sign-up.jpeg";
+import me from "./images/me.png";
 
 export {
   bitlio,
@@ -16,6 +18,8 @@ export {
   rentARide,
   telmanHeybat,
   threads,
+  newsletterSignUp,
+  me,
 };
 
 export const projectImages: {
@@ -29,4 +33,5 @@ export const projectImages: {
   rentARide,
   telmanHeybat,
   threads,
+  newsletterSignUp,
 };

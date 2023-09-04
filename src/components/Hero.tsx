@@ -1,4 +1,4 @@
-import images from "../data/images.data.json";
+import { me } from "../assets";
 
 const Hero = () => {
   return (
@@ -23,9 +23,9 @@ const Hero = () => {
         </div>
       </div>
       <div className="lg:border-b-[0px] border-b-[4px] border-b-black h-[500px] bg-[#BAFCA2] flex justify-center items-center">
-        <div className="ease-in-out duration-100 border-2 border-black shadow bg-[#FFDB58] z-10 w-[320px] h-[370px] flex flex-col gap-10 justify-center">
+        <div className="ease-in-out duration-100 border-2 border-black shadow-unset-hover bg-[#FFDB58] z-10 w-[320px] h-[370px] flex flex-col gap-10 justify-center">
           <img
-            src={images.me}
+            src={me}
             alt="Valeh Ismayilov"
             className="border-[4px] border-black w-[220px] h-[220px] mx-auto"
           />

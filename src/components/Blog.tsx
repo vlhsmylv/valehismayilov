@@ -34,7 +34,7 @@ const Blog = ({ separate }: { separate?: boolean }) => {
       {posts.length > 6 ? (
         <div className="flex justify-center mt-5">
           <button
-            id="setLoadMore"
+            id="setLoadMoreBlog"
             type="submit"
             onClick={() => setLoadMore(true)}
             className={`${
