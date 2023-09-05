@@ -39,6 +39,7 @@ const Portfolio = ({ separate }: { separate?: boolean }) => {
                 </a>
               </div>
               <img
+                alt="Project Image"
                 src={projectImages[project.img]}
                 className="h-[187px] rounded-t-sm"
               />
