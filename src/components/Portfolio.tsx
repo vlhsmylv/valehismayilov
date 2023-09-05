@@ -6,23 +6,25 @@ const Portfolio = ({ separate }: { separate?: boolean }) => {
   const [loadMore, setLoadMore] = useState(false);
 
   return (
-    <main
+    <section
+      id="portfolio"
       className={`bg-[#DAF5F0] ${
         !separate ? "border-t-[4px]" : ""
       } border-x-[4px]  border-black py-10 gap-4 flex flex-col justify-center items-center`}
     >
-      <div className="text-3xl font-semibold">Portfolio</div>
-      <div className="flex flex-row flex-wrap lg:gap-20 gap-10 justify-center">
+      <h1 className="text-3xl font-semibold">Portfolio</h1>
+      <ul className="flex flex-row flex-wrap lg:gap-20 gap-10 justify-center">
         {projects.slice(0, loadMore ? projects.length : 6).map((project, i) => (
-          <div
+          <li
+            id={`project-${project.id}`}
             key={i}
-            className={`lg:mx-0 mx-5 group/item cursor-pointer bg-[${project.bg}] text-xl max-w-[346px] ease-in-out duration-100 rounded-md flex w-full text-black shadow-black border-2 border-black`}
+            className={`lg:mx-0 mx-5 group/item bg-[${project.bg}] text-xl max-w-[346px] ease-in-out duration-100 rounded-md flex w-full text-black shadow-black border-2 border-black`}
           >
-            <div className="flex flex-col gap-3 pb-5 w-inherit">
+            <div className="flex flex-col gap-3 pb-5">
               <img
-                alt="Project Image"
+                alt={project.title}
                 src={projectImages[project.img]}
-                className="h-[187px] rounded-t-sm"
+                className="h-[187px] rounded-t-sm object-fit"
               />
               <div className="px-5 font-semibold">{project.title}</div>
               <p className="px-5 text-base">{project.about}</p>
@@ -30,24 +32,30 @@ const Portfolio = ({ separate }: { separate?: boolean }) => {
                 {project.skills.map((skill, i) => (
                   <div
                     key={i}
-                    className="px-2 py-1 max-w-[346px] ease-in-out duration-100 rounded-md text-black shadow-black border-2 border-black"
+                    className="cursor-default px-2 py-1 max-w-[346px] ease-in-out duration-100 rounded-md text-black shadow-black border-2 border-black"
                   >
                     {skill}
                   </div>
                 ))}
               </div>
-              <div className="flex justify-center gap-5 mt-2">
+              <div className="flex justify-start px-5 gap-3 mt-2">
                 <a
+                  title={`Live view link of ${project.title} project`}
+                  id={`live-link-${project.id}`}
+                  aria-labelledby={`live-link-${project.id}`}
                   target="_blank"
-                  className={`flex max-w-[100px] pr-6 w-full bg-[#90EE90] items-center justify-center gap-2 font-semibold text-base px-3 py-[6px] ease-in-out duration-100 shadow-sp-sm rounded-md p-2 text-black shadow-black border-2 border-black`}
+                  className={`external flex max-w-[100px] pr-6 w-full bg-[#90EE90] items-center justify-center gap-2 font-semibold text-base px-3 py-[6px] ease-in-out duration-100  rounded-md p-2 text-black shadow-black border-2 border-black`}
                   href={project.link}
                 >
                   <span className="w-[20px]">🌐︎</span>{" "}
                   <span className="w-[40px] text-center pl-1">Live</span>
                 </a>
                 <a
+                  title={`Github Repo link of ${project.title} project`}
+                  id={`repo-link-${project.id}`}
+                  aria-labelledby={`repo-link-${project.id}`}
                   target="_blank"
-                  className={`flex max-w-[100px] pr-6 w-full bg-[#87CEEB] items-center justify-center gap-2 font-semibold text-base px-3 py-[6px] ease-in-out duration-100 shadow-sp-sm rounded-md p-2 text-black shadow-black border-2 border-black`}
+                  className={`external flex max-w-[100px] pr-6 w-full bg-[#87CEEB] items-center justify-center gap-2 font-semibold text-base px-3 py-[6px] ease-in-out duration-100  rounded-md p-2 text-black shadow-black border-2 border-black`}
                   href={project.repo}
                 >
                   <span className="w-[20px]">👨🏻‍💻</span>{" "}
@@ -55,9 +63,9 @@ const Portfolio = ({ separate }: { separate?: boolean }) => {
                 </a>
               </div>
             </div>
-          </div>
+          </li>
         ))}
-      </div>
+      </ul>
       {projects.length > 6 ? (
         <div className="flex justify-center mt-5">
           <button
@@ -74,7 +82,7 @@ const Portfolio = ({ separate }: { separate?: boolean }) => {
       ) : (
         <></>
       )}
-    </main>
+    </section>
   );
 };
 

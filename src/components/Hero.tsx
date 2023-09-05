@@ -2,7 +2,10 @@ import { me } from "../assets";
 
 const Hero = () => {
   return (
-    <main className="grid lg:grid-cols-2 grid-cols-1 border-x-[4px] border-black">
+    <section
+      id="about"
+      className="grid lg:grid-cols-2 grid-cols-1 border-x-[4px] border-black"
+    >
       <div className="lg:order-first order-last bg-[#FDFD96] flex flex-col justify-center h-[500px] gap-8 font-semibold py-14 lg:px-20 px-7 lg:border-r-[4px] lg:border-b-0 border-black">
         <div className="text-6xl">Hello! 👋</div>
         <div className="text-xl">My name is Valeh</div>
@@ -10,11 +13,12 @@ const Hero = () => {
         <div>
           <a
             target="_blank"
-            href="/linkedin"
-            className="text-xl max-w-[350px] ease-in-out duration-100 shadow rounded-md flex w-full p-2 text-black shadow-black border-2 border-black bg-[#FFA07A]"
+            href="https://linkedin.com/in/vismayilov"
+            className="external text-xl max-w-[350px] ease-in-out duration-100 shadow rounded-md flex w-full p-2 text-black shadow-black border-2 border-black bg-[#FFA07A]"
           >
-            <div className="w-full flex justify-center">
-              👨🏻‍💻 Full-stack Web Developer
+            <div className="w-full flex justify-center items-center gap-2">
+              <i className="bx bxl-linkedin-square text-3xl"></i>{" "}
+              <span>Full-stack Web Developer</span>
             </div>
           </a>
         </div>
@@ -29,14 +33,12 @@ const Hero = () => {
             alt="Valeh Ismayilov"
             className="border-[4px] border-black w-[220px] h-[220px] mx-auto"
           />
-          <div className="font-semibold text-xl text-center">
-            <a href="./" className="hover:underline">
-              Valeh Ismayilov
-            </a>
+          <div className="cursor-default font-semibold text-xl text-center">
+            Valeh Ismayilov
           </div>
         </div>
       </div>
-    </main>
+    </section>
   );
 };
 

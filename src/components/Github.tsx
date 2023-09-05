@@ -28,7 +28,7 @@ const Github = ({ separate }: { separate?: boolean }) => {
   }, []);
 
   return (
-    <main
+    <section
       className={`bg-[#FCDFFF] ${
         !separate ? "border-t-[4px]" : ""
       } border-x-[4px]  border-black py-10 gap-4 flex flex-col justify-center items-center`}
@@ -103,7 +103,7 @@ const Github = ({ separate }: { separate?: boolean }) => {
       ) : (
         <></>
       )}
-    </main>
+    </section>
   );
 };
 

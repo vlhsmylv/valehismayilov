@@ -1,43 +1,66 @@
 const Contact = ({ separate }: { separate?: boolean }) => {
   return (
-    <main
+    <section
+      id="contact"
       className={` bg-[#FFA07A] ${
         !separate ? "border-t-[4px]" : ""
       }  border-x-[4px]  border-black py-10 gap-4 flex flex-col justify-center items-center`}
     >
-      <div className="text-3xl font-semibold">Get in touch!</div>
+      <h1 className="text-3xl font-semibold">Get in touch!</h1>
       <form
         className="flex flex-col gap-10"
         method="POST"
         action="https://formspree.io/f/moqovkzp"
       >
         <div className="flex flex-col gap-3">
-          <label className="text-xl">Name</label>
+          <label className="text-xl" htmlFor="name">
+            Name
+          </label>
           <input
             type="text"
+            id="name"
             placeholder="Enter your name"
-            className="ease-in-out duration-100 rounded-md p-2 shadow-input border-2 border-black focus:outline-none outline-none lg:w-[364px] w-[300px]"
-            autoComplete="off"
+            className="ease-in-out duration-100 rounded-md p-2 shadow-input border-2 border-black focus:outline-gray-600 outline-offset-0 outline-none lg:w-[364px] w-[300px]"
+            autoComplete="on"
           />
         </div>
         <div className="flex flex-col gap-3">
-          <label className="text-xl">Email or Number *</label>
+          <label className="text-xl" htmlFor="email">
+            Email *
+          </label>
           <input
             type="text"
             required
-            placeholder="Enter email or number"
-            className="ease-in-out duration-100 rounded-md p-2 shadow-input border-2 border-black focus:outline-none outline-none lg:w-[364px] w-[300px]"
-            autoComplete="off"
+            id="email"
+            placeholder="Enter email"
+            className="ease-in-out duration-100 rounded-md p-2 shadow-input border-2 border-black focus:outline-gray-600 outline-offset-0 outline-none lg:w-[364px] w-[300px]"
+            autoComplete="on"
           />
         </div>
         <div className="flex flex-col gap-3">
-          <label className="text-xl">Message *</label>
+          <label className="text-xl" htmlFor="number">
+            Number
+          </label>
+          <input
+            type="number"
+            pattern="-\d{3}-\d{3}-\d{4}$"
+            id="number"
+            placeholder="Enter number"
+            className="ease-in-out duration-100 rounded-md p-2 shadow-input border-2 border-black focus:outline-gray-600 outline-offset-0 outline-none lg:w-[364px] w-[300px]"
+            autoComplete="on"
+          />
+        </div>
+        <div className="flex flex-col gap-3">
+          <label className="text-xl" htmlFor="message">
+            Message *
+          </label>
           <textarea
             required
             placeholder="Enter your message"
-            className="ease-in-out duration-100 rounded-md p-2 shadow-input border-2 border-black focus:outline-none outline-none lg:w-[364px] w-[300px]"
+            id="message"
+            className="ease-in-out duration-100 rounded-md p-2 shadow-input border-2 border-black focus:outline-gray-600 outline-offset-0 outline-none lg:w-[364px] w-[300px]"
             rows={4}
-            autoComplete="off"
+            autoComplete="on"
           ></textarea>
         </div>
         <div className="m-auto">
@@ -49,7 +72,7 @@ const Contact = ({ separate }: { separate?: boolean }) => {
           </button>
         </div>
       </form>
-    </main>
+    </section>
   );
 };
 

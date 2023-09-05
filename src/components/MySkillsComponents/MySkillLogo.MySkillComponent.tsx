@@ -5,7 +5,7 @@ const MySkillLogo = ({ imgKey }: { imgKey: string }) => {
     [id: string]: string;
   } = images.stack;
 
-  return <img alt="Skill Logo" src={stack[imgKey]} className="w-8 h-8" />;
+  return <img alt="" src={stack[imgKey]} className="w-8 h-8" />;
 };
 
 export default MySkillLogo;

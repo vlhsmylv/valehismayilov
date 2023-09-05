@@ -1,6 +1,7 @@
 [
   {
     "link": "https://newsletter-sign-up-vlhsmylv.vercel.app",
+    "id": "newsletter-sign-up",
     "repo": "https://github.com/vlhsmylv/newsletter-sign-up",
     "img": "newsletterSignUp",
     "title": "Newsletter Sign Up",
@@ -10,6 +11,7 @@
   },
   {
     "link": "https://vlhsmylv.github.io/notifications-page",
+    "id": "notifications-page",
     "repo": "https://github.com/vlhsmylv/notifications-page",
     "img": "notificationsPage",
     "title": "Notifications page",
@@ -19,6 +21,7 @@
   },
   {
     "link": "https://hoobank-three-neon.vercel.app",
+    "id": "hoobank",
     "repo": "https://github.com/vlhsmylv/hoobank",
     "img": "hoobank",
     "title": "Hoobank",
@@ -28,6 +31,7 @@
   },
   {
     "link": "https://linkfold-phi.vercel.app",
+    "id": "linkfold",
     "repo": "https://github.com/vlhsmylv/linkfold",
     "img": "linkfold",
     "title": "Linkfold",
@@ -37,6 +41,7 @@
   },
   {
     "link": "https://car-rental-service-lightbox.netlify.app/",
+    "id": "rent-a-ride",
     "repo": "https://github.com/vlhsmylv/car-rental-service",
     "img": "rentARide",
     "title": "Rent a Ride",
@@ -46,6 +51,7 @@
   },
   {
     "link": "https://lightbox-agency.netlify.app",
+    "id": "lightbox",
     "repo": "#",
     "img": "lightbox",
     "title": "Lightbox Agency",
@@ -55,6 +61,7 @@
   },
   {
     "link": "https://threads-net.netlify.app/",
+    "id": "threads",
     "repo": "https://github.com/vlhsmylv/threads-net",
     "img": "threads",
     "title": "Threads",
@@ -64,6 +71,7 @@
   },
   {
     "link": "https://bitlio-ui.netlify.app/",
+    "id": "bitlio",
     "repo": "#",
     "img": "bitlio",
     "title": "Bitlio",
@@ -73,6 +81,7 @@
   },
   {
     "link": "https://vlhsmylv.github.io/telmanheybat-com/",
+    "id": "telman-heybat",
     "repo": "https://github.com/vlhsmylv/telman-heybat",
     "img": "telmanHeybat",
     "title": "Telman Heybat",

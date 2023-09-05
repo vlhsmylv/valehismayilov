@@ -16,7 +16,7 @@ const Blog = ({ separate }: { separate?: boolean }) => {
   const [loadMore, setLoadMore] = useState(false);
 
   return (
-    <main
+    <section
       className={`bg-[#F8D6B3] ${
         !separate ? "border-t-[4px]" : ""
       } border-x-[4px]  border-black py-10 gap-4 flex flex-col justify-center items-center`}
@@ -47,7 +47,7 @@ const Blog = ({ separate }: { separate?: boolean }) => {
       ) : (
         <></>
       )}
-    </main>
+    </section>
   );
 };
 

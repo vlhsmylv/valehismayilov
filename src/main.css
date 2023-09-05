@@ -6,6 +6,10 @@ body {
   font-family: "Clash Display", sans-serif;
 }
 
+.disabled {
+  background-color: black;
+}
+
 .shadow-unset-hover {
   box-shadow: 8px 10px black !important;
 }
