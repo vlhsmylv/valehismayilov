@@ -6,17 +6,26 @@ body {
   font-family: "Clash Display", sans-serif;
 }
 
-.shadow {
+.shadow-unset-hover {
   box-shadow: 8px 10px black !important;
 }
 
-.shadow-unset-hover {
+.shadow {
   box-shadow: 8px 10px black !important;
 }
 
 .shadow:hover {
   transform: translate(3px, 3px);
   box-shadow: 5px 7px black !important;
+}
+
+.shadow-sp-sm {
+  box-shadow: 6px 8px black !important;
+}
+
+.shadow-sp-sm:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 3px 5px black !important;
 }
 
 .shadow-input {
