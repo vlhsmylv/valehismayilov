@@ -31,7 +31,9 @@ const Hero = () => {
           <img
             src={me}
             alt="Valeh Ismayilov"
-            className="border-[4px] border-black w-[220px] h-[220px] mx-auto"
+            width={220}
+            height={220}
+            className="border-[4px] border-black mx-auto"
           />
           <div className="cursor-default font-semibold text-xl text-center">
             Valeh Ismayilov
