@@ -1,5 +1,15 @@
 [
   {
+    "link": "https://advice-generator-vlhsmylv.vercel.app",
+    "id": "advice-generator",
+    "repo": "https://github.com/vlhsmylv/advice-generator",
+    "img": "adviceGenerator",
+    "title": "Advice Generator",
+    "about": "Advice Generator project from Frontend Mentor. Targeted to develop designing, implementing design skills, and API usage.",
+    "skills": ["ReactJs", "Tailwind", "Axios"],
+    "bg": "#52ffa8"
+  },
+  {
     "link": "https://ecommerce-product-page-vlhsmylv.vercel.app",
     "id": "newsletter-sign-up",
     "repo": "https://github.com/vlhsmylv/ecommerce-product-page",

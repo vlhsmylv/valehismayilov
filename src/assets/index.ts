@@ -8,6 +8,7 @@ import telmanHeybat from "./images/telman-heybat.webp";
 import threads from "./images/threads.webp";
 import newsletterSignUp from "./images/newsletter-sign-up.webp";
 import ecommerceProductPage from "./images/ecommerce-product-page.webp";
+import adviceGenerator from "./images/advice-generator.webp";
 import me from "./images/me.webp";
 
 export {
@@ -21,6 +22,7 @@ export {
   threads,
   newsletterSignUp,
   ecommerceProductPage,
+  adviceGenerator,
   me,
 };
 
@@ -37,4 +39,5 @@ export const projectImages: {
   threads,
   newsletterSignUp,
   ecommerceProductPage,
+  adviceGenerator,
 };
