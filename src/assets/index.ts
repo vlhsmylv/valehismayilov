@@ -7,6 +7,7 @@ import rentARide from "./images/rent-a-ride.webp";
 import telmanHeybat from "./images/telman-heybat.webp";
 import threads from "./images/threads.webp";
 import newsletterSignUp from "./images/newsletter-sign-up.webp";
+import ecommerceProductPage from "./images/ecommerce-product-page.webp";
 import me from "./images/me.webp";
 
 export {
@@ -19,6 +20,7 @@ export {
   telmanHeybat,
   threads,
   newsletterSignUp,
+  ecommerceProductPage,
   me,
 };
 
@@ -34,4 +36,5 @@ export const projectImages: {
   telmanHeybat,
   threads,
   newsletterSignUp,
+  ecommerceProductPage,
 };
