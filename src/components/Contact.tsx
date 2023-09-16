@@ -19,6 +19,7 @@ const Contact = ({ separate }: { separate?: boolean }) => {
           <input
             type="text"
             id="name"
+            name="name"
             placeholder="Enter your name"
             className="ease-in-out duration-100 rounded-md p-2 shadow-input border-2 border-black focus:outline-gray-600 outline-offset-0 outline-none lg:w-[364px] w-[300px]"
             autoComplete="on"
@@ -32,6 +33,7 @@ const Contact = ({ separate }: { separate?: boolean }) => {
             type="text"
             required
             id="email"
+            name="email"
             placeholder="Enter email"
             className="ease-in-out duration-100 rounded-md p-2 shadow-input border-2 border-black focus:outline-gray-600 outline-offset-0 outline-none lg:w-[364px] w-[300px]"
             autoComplete="on"
@@ -45,6 +47,7 @@ const Contact = ({ separate }: { separate?: boolean }) => {
             type="number"
             pattern="-\d{3}-\d{3}-\d{4}$"
             id="number"
+            name="phone"
             placeholder="Enter number"
             className="ease-in-out duration-100 rounded-md p-2 shadow-input border-2 border-black focus:outline-gray-600 outline-offset-0 outline-none lg:w-[364px] w-[300px]"
             autoComplete="on"
@@ -58,6 +61,7 @@ const Contact = ({ separate }: { separate?: boolean }) => {
             required
             placeholder="Enter your message"
             id="message"
+            name="message"
             className="ease-in-out duration-100 rounded-md p-2 shadow-input border-2 border-black focus:outline-gray-600 outline-offset-0 outline-none lg:w-[364px] w-[300px]"
             rows={4}
             autoComplete="on"
