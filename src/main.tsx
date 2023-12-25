@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 // import Github from "./components/Github";
 import NotFound from "./components/NotFound";
+import Appointment from "./components/Appointment";
 // import Blog from "./components/Blog";
 // import Post from "./components/BlogComponents/Post.BlogComponent";
 
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Navbar />
       <Routes>
         <Route path="/" element={<Main />}></Route>
+        <Route path="/appointment" element={<Appointment />}></Route>
         <Route path="/*" element={<NotFound />}></Route>
       </Routes>
       <Footer />
