@@ -1,43 +1,13 @@
 [
   {
-    "link": "https://advice-generator-vlhsmylv.vercel.app",
-    "id": "advice-generator",
-    "repo": "https://github.com/vlhsmylv/advice-generator",
-    "img": "adviceGenerator",
-    "title": "Advice Generator",
-    "about": "Advice Generator project from Frontend Mentor. Targeted to develop designing, implementing design skills, and API usage.",
-    "skills": ["ReactJs", "Tailwind", "Axios"],
-    "bg": "#52ffa8"
-  },
-  {
-    "link": "https://ecommerce-product-page-vlhsmylv.vercel.app",
-    "id": "newsletter-sign-up",
-    "repo": "https://github.com/vlhsmylv/ecommerce-product-page",
-    "img": "ecommerceProductPage",
-    "title": "E-commerce Product Page",
-    "about": "E-commerce Product Page project from Frontend Mentor. Targeted to develop designing, implementing design skills, and state management.",
-    "skills": ["ReactJs", "Tailwind", "Zustand"],
-    "bg": "#ff7d1a"
-  },
-  {
-    "link": "https://newsletter-sign-up-vlhsmylv.vercel.app",
-    "id": "newsletter-sign-up",
-    "repo": "https://github.com/vlhsmylv/newsletter-sign-up",
-    "img": "newsletterSignUp",
-    "title": "Newsletter Sign Up",
-    "about": "Newsletter Sign Up project from Frontend Mentor. Targeted to develop designing and implementing design skills.",
-    "skills": ["ReactJs", "Tailwind"],
-    "bg": "#FF6257"
-  },
-  {
-    "link": "https://vlhsmylv.github.io/notifications-page",
-    "id": "notifications-page",
-    "repo": "https://github.com/vlhsmylv/notifications-page",
-    "img": "notificationsPage",
-    "title": "Notifications page",
-    "about": "Notifications page project from Frontend Mentor. Targeted to develop designing and implementing design skills.",
-    "skills": ["HTML", "CSS", "Tailwind"],
-    "bg": "#FFA07A"
+    "link": "#",
+    "id": "tabiat",
+    "repo": "#",
+    "img": "tabiat",
+    "title": "Tabiat",
+    "about": "Tabiat is a startup which provides educational content for science in Azerbaijani language by combining video materials and virtual lab simulations (position was CTO).",
+    "skills": ["React", "Tailwind", "Axios", "Firebase", "Clerk", "TypeScript"],
+    "bg": "#00f7ff"
   },
   {
     "link": "https://hoobank-three-neon.vercel.app",
@@ -47,7 +17,7 @@
     "title": "Hoobank",
     "about": "Modern banking application that enables individuals and businesses to get rid of online payment issues. The website offers a modern and user-friendly interface.",
     "skills": ["React", "Tailwind"],
-    "bg": "#00f7ff"
+    "bg": "#52ffa8"
   },
   {
     "link": "https://linkfold-phi.vercel.app",
