@@ -6,7 +6,7 @@
     "img": "tabiat",
     "title": "Tabiat",
     "about": "Tabiat is a startup which provides educational content for science in Azerbaijani language by combining video materials and virtual lab simulations (position was CTO).",
-    "skills": ["React", "Tailwind", "Axios", "Firebase", "Clerk", "TypeScript"],
+    "skills": ["ReactJs", "Tailwind", "Axios", "Firebase", "Clerk", "TypeScript"],
     "bg": "#00f7ff"
   },
   {
@@ -16,7 +16,7 @@
     "img": "hoobank",
     "title": "Hoobank",
     "about": "Modern banking application that enables individuals and businesses to get rid of online payment issues. The website offers a modern and user-friendly interface.",
-    "skills": ["React", "Tailwind"],
+    "skills": ["ReactJs", "Tailwind"],
     "bg": "#52ffa8"
   },
   {

@@ -20,12 +20,20 @@
     "logo": "nextjs.svh"
   },
   {
-    "title": "React",
+    "title": "ReactJs",
     "logo": "react.png"
   },
   {
     "title": "MongoDB",
     "logo": "mongo.png"
+  },
+  {
+    "title": "Firebase",
+    "logo": "firebase.png"
+  },
+  {
+    "title": "Prisma",
+    "logo": "prisma.png"
   },
   {
     "title": "NodeJs",
@@ -36,7 +44,7 @@
     "logo": "express.png"
   },
   {
-    "title": "Tailwind",
+    "title": "TailwindCSS",
     "logo": "tailwind.svg"
   },
   {
