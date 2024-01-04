@@ -1,0 +1,58 @@
+[
+  {
+    "title": "HTML",
+    "logo": "html-5.png"
+  },
+  {
+    "title": "CSS",
+    "logo": "css-3.png"
+  },
+  {
+    "title": "JavaScript",
+    "logo": "js.png"
+  },
+  {
+    "title": "TypeScript",
+    "logo": "ts.png"
+  },
+  {
+    "title": "NextJs",
+    "logo": "nextjs.svh"
+  },
+  {
+    "title": "ReactJs",
+    "logo": "react.png"
+  },
+  {
+    "title": "MongoDB",
+    "logo": "mongo.png"
+  },
+  {
+    "title": "Firebase",
+    "logo": "firebase.png"
+  },
+  {
+    "title": "Prisma",
+    "logo": "prisma.png"
+  },
+  {
+    "title": "NodeJs",
+    "logo": "node.png"
+  },
+  {
+    "title": "ExpressJs",
+    "logo": "express.png"
+  },
+  {
+    "title": "TailwindCSS",
+    "logo": "tailwind.svg"
+  },
+  {
+    "title": "Bootstrap",
+    "logo": "bootstrap.png"
+  },
+  {
+    "title": "SCSS",
+    "logo": "sass.png"
+  }
+]

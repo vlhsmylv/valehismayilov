@@ -1,0 +1,82 @@
+[
+  {
+    "link": "#",
+    "id": "tabiat",
+    "repo": "#",
+    "img": "tabiat",
+    "title": "Tabiat",
+    "about": "Tabiat is a startup which provides educational content for science in Azerbaijani language by combining video materials and virtual lab simulations (position was CTO).",
+    "skills": ["ReactJs", "Tailwind", "Axios", "Firebase", "Clerk", "TypeScript"],
+    "bg": "#00f7ff"
+  },
+  {
+    "link": "https://hoobank-three-neon.vercel.app",
+    "id": "hoobank",
+    "repo": "https://github.com/vlhsmylv/hoobank",
+    "img": "hoobank",
+    "title": "Hoobank",
+    "about": "Modern banking application that enables individuals and businesses to get rid of online payment issues. The website offers a modern and user-friendly interface.",
+    "skills": ["ReactJs", "Tailwind"],
+    "bg": "#52ffa8"
+  },
+  {
+    "link": "https://linkfold-phi.vercel.app",
+    "id": "linkfold",
+    "repo": "https://github.com/vlhsmylv/linkfold",
+    "img": "linkfold",
+    "title": "Linkfold",
+    "about": "One place your all of your links! Web app like BioLink, Linktree, etc.  Contains functionalities such as authentication, database integration, etc.",
+    "skills": ["NextJs", "Tailwind", "MongoDB"],
+    "bg": "#FFDB58"
+  },
+  {
+    "link": "https://car-rental-service-lightbox.netlify.app/",
+    "id": "rent-a-ride",
+    "repo": "https://github.com/vlhsmylv/car-rental-service",
+    "img": "rentARide",
+    "title": "Rent a Ride",
+    "about": "A car rental website is a digital platform that enables individuals or businesses to lease vehicles for personal or professional purposes. The website offers a user-friendly interface.",
+    "skills": ["NextJs", "SCSS"],
+    "bg": "#F8D6B3"
+  },
+  {
+    "link": "https://lightbox-agency.netlify.app",
+    "id": "lightbox",
+    "repo": "#",
+    "img": "lightbox",
+    "title": "Lightbox Agency",
+    "about": "An Agency Website that provides information for its users and customers. It has different functionalities as order confirmation and order check.",
+    "skills": ["NextJs", "Firebase", "SCSS"],
+    "bg": "#87CEEB"
+  },
+  {
+    "link": "https://threads-net.netlify.app/",
+    "id": "threads",
+    "repo": "https://github.com/vlhsmylv/threads-net",
+    "img": "threads",
+    "title": "Threads",
+    "about": "Community application that you can create and discuss topics. Web clone of Threads application. Contains functionalities such as authentication, database integration, etc.",
+    "skills": ["NextJs", "Tailwind", "MongoDB"],
+    "bg": "#E3DFF2"
+  },
+  {
+    "link": "https://bitlio-ui.netlify.app/",
+    "id": "bitlio",
+    "repo": "#",
+    "img": "bitlio",
+    "title": "Bitlio",
+    "about": "A Platform that helps people to learn to program in the Azerbaijani language. Has all functionalities such as authentication and database integration.",
+    "skills": ["NextJs", "Firebase", "Bootstrap"],
+    "bg": "#C4A1FF"
+  },
+  {
+    "link": "https://vlhsmylv.github.io/telmanheybat-com/",
+    "id": "telman-heybat",
+    "repo": "https://github.com/vlhsmylv/telman-heybat",
+    "img": "telmanHeybat",
+    "title": "Telman Heybat",
+    "about": " A Personal Website for photographer. Contains services, portfolio, and contact sections. It is categorized as a landing page.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "bg": "#C1CCD5"
+  }
+]
