@@ -1,5 +1,15 @@
 [
   {
+    "link": "https://opencnt.com",
+    "id": "openconnect",
+    "repo": "#",
+    "img": "openconnect",
+    "title": "OpenConnect",
+    "about": "OpenConnect provides a wide range of data, letting you access the startup ecosystem digitally from anywhere and anytime.",
+    "skills": ["NextJs", "Tailwind", "MongoDB", "Prisma"],
+    "bg": "#69CE87"
+  },
+  {
     "link": "#",
     "id": "tabiat",
     "repo": "#",

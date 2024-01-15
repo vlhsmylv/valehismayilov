@@ -28,6 +28,10 @@
     "logo": "mongo.png"
   },
   {
+    "title": "Prisma",
+    "logo": "prisma.png"
+  },
+  {
     "title": "NodeJs",
     "logo": "node.png"
   },

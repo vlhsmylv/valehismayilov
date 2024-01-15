@@ -6,6 +6,7 @@ import rentARide from "./images/rent-a-ride.webp";
 import telmanHeybat from "./images/telman-heybat.webp";
 import threads from "./images/threads.webp";
 import tabiat from "./images/tabiat.webp";
+import openconnect from "./images/openconnect.webp";
 import me from "./images/me.webp";
 
 export {
@@ -17,6 +18,7 @@ export {
   telmanHeybat,
   threads,
   tabiat,
+  openconnect,
   me,
 };
 
@@ -30,5 +32,6 @@ export const projectImages: {
   rentARide,
   telmanHeybat,
   threads,
-  tabiat
+  tabiat,
+  openconnect
 };
