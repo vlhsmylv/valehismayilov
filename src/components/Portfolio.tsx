@@ -24,7 +24,7 @@ const Portfolio = ({ separate }: { separate?: boolean }) => {
               <img
                 alt={project.title}
                 src={projectImages[project.img]}
-                className="rounded-t-sm object-fit h-[222px]"
+                className="rounded-t-sm object-fit h-[192px]"
               />
               <div className="px-5 font-semibold">{project.title}</div>
               <p className="px-5 text-base">{project.about}</p>
