@@ -4,13 +4,27 @@ const Footer = () => {
   return (
     <footer className="p-4 bg-[#FFB2EF] border-[4px] border-black flex justify-between">
       <div>&copy; {year}. All rights reserved.</div>
-      <div>
+      <div className="flex gap-3">
         <a
           target="_blank"
-          href="https://linkfold-phi.vercel.app/valehismayilov"
+          href="https://linkedin.com/in/vismayilov"
           className="external hover:underline"
         >
-          Links
+          LinkedIn
+        </a>
+        <a
+          target="_blank"
+          href="https://instagram.com/ismavaleh"
+          className="external hover:underline"
+        >
+          Instagram
+        </a>
+        <a
+          target="_blank"
+          href="mailto:valeh@opencnt.com"
+          className="external hover:underline"
+        >
+          Contact
         </a>
       </div>
     </footer>

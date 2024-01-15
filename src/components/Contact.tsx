@@ -4,10 +4,10 @@ const Contact = ({ separate }: { separate?: boolean }) => {
       id="contact"
       className={` bg-[#FFA07A] ${
         !separate ? "border-t-[4px]" : ""
-      }  border-x-[4px]  border-black py-10 gap-4 flex flex-col justify-center items-center`}
+      }  border-x-[4px]  border-black py-10 gap-6 flex flex-col justify-center items-center`}
     >
       <h1 className="text-3xl font-semibold">Get in touch!</h1>
-      <form
+      {/* <form
         className="flex flex-col gap-10"
         method="POST"
         action="https://formspree.io/f/moqovkzp"
@@ -75,7 +75,15 @@ const Contact = ({ separate }: { separate?: boolean }) => {
             Submit
           </button>
         </div>
-      </form>
+      </form> */}
+      <div className="m-auto">
+        <button
+          onClick={() => window.open(`mailto:valeh@opencnt.com`)}
+          className="ease-in-out duration-100 text-xl font-semibold shadow border-2 border-black rounded-md p-2 bg-[#90EE90]"
+        >
+          Email
+        </button>
+      </div>
     </section>
   );
 };
