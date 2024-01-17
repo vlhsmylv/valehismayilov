@@ -1,10 +1,8 @@
+import { InlineWidget } from "react-calendly";
+
 const Appointment = () => {
   return (
-    <iframe
-      src="https://booking.appointy.com/valehismayilov/"
-      frameBorder="0"
-      className="w-full h-[80vh]"
-    ></iframe>
+    <InlineWidget url="https://calendly.com/vismayilov/meeting" />
   );
 };
 
