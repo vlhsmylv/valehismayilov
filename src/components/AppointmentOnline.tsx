@@ -1,4 +1,4 @@
-const Appointment = () => {
+const AppointmentOnline = () => {
   return (
     <div className="flex justify-center">
       <iframe
@@ -17,4 +17,4 @@ const Appointment = () => {
   );
 };
 
-export default Appointment;
+export default AppointmentOnline;
