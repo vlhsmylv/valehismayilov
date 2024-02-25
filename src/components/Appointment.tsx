@@ -1,8 +1,19 @@
-import { InlineWidget } from "react-calendly";
-
 const Appointment = () => {
   return (
-    <InlineWidget url="https://calendly.com/vismayilov/meeting" />
+    <div className="flex justify-center">
+      <iframe
+        src="https://zcal.co/i/hQTCzchc?embed=1&embedType=iframe"
+        loading="lazy"
+        style={{
+          border: "none",
+          minWidth: 320,
+          minHeight: 544,
+          height: 966,
+          width: 1096,
+        }}
+        id="zcal-invite"
+      />
+    </div>
   );
 };
 
